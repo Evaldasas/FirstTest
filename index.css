@@ -1,0 +1,125 @@
+main{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(203, 214, 214);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+div{
+    background-color:whitesmoke;
+    border-radius: 15px;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.first p{
+    color: brown;
+    font-size: small;
+    font-weight: 600;
+    margin: 0;
+    padding-LEFT: 30px;
+}
+
+.firstinput{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+.firstinput input{
+    
+    width: 400px;
+    background-color: rgb(243, 240, 236);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-right: 0;
+    padding: 0;
+    color: rgb(122, 118, 118);
+}
+
+.firstinput button{
+    background-color: red;
+    width: 100px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 0;
+    padding: 0;
+    color: aliceblue;
+    font-weight: 800;
+}
+
+
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+.second p{
+    text-align: center;
+    width: 50%;
+    font-weight: 600;
+}
+
+.icons{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.edit{
+    color: green;
+}
+
+.recycle{
+    color: brown;
+}
+
+
+.third{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+main .third .check p{
+    margin: 0;
+
+}
+
+
+
+
+
