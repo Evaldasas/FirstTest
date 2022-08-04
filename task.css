@@ -1,15 +1,49 @@
-main{
-    width: 50%;
-    margin: auto;
-    background-color: rgb(203, 214, 214);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5%;
+body{
     font-family: 'Open Sans', sans-serif;
+}
 
+header{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding-bottom: 10px;
+    padding-top: 5rem;
+}
+
+.title{
+    background-color: white;
+    margin: 0;
+    padding-left: 5%;
+}
+
+.title h1 span{
+    color: blue;
+}
+
+.links{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+    background-color: white;
+}
+
+a{
+    color: blue;
+    font-weight: bolder;
+}
+
+
+
+main{
+    width: 70%;
+    margin: auto;
+    background-color: rgb(230, 230, 230);
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 
