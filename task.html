@@ -8,47 +8,51 @@
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
         crossorigin="anonymous" 
         referrerpolicy="no-referrer" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Sofia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Sofia&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="task.css">
     <title>Edit Task</title>
 </head>
 <body>
-    <div class="wrapper">
-        <header>
-            <div class="title">
-                <h1>Best <span>To Do</span> App</h1>
-            </div>
-            <div class="links">
-                <!-- Čia vietoje raidžių sukelti ikonas -->
-                <a href="#">F</a>
-                <a href="#">T</a>
-                <a href="#">L</a>
-            </div>
-        </header>
+    <header>
+        <div class="title">
+            <h1>Best <span>To Do</span> App</h1>
+        </div>
+        <div class="links">
+            <a href="https://www.facebook.com">
+                <i class="fab fa-facebook"></i>  
+            </a>
+            <a href="https://www.twitter.com">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </header>
     <main>
         <div class="table">
             <h1>Edit Task</h1>
             <div class="lines">      
-                <div>
-                    <label for="taskid">Task ID</label>
-                    <input name="taskid" type="number" id="taskid" placeholder="123456789">
+                <div class="taskIdLine">
+                    <label class="taskId" for="taskid">Task ID</label>
+                    <p class="task-id">123456789</p>
                 </div>
-                <div>
-                    <label for="task">Name</label>
-                    <input name="task" type="text" placeholder="Take out trashes">
+                <div class="nameLine">
+                    <label class="task-id" for="task">Name</label>
+                    <input class="task-id" name="task" type="text" placeholder="Take out trashes">
                 </div>
-                <div >
-                    <label for="check">Completed</label>
-                    <input class="check" name="check" type="checkbox" checked>
+                <div class="completedLine">
+                    <label class="task-id" for="check">Completed</label>
+                    <input class="checkbox" name="check" type="checkbox" checked>
                 </div>
             </div>
             <button type="button">Edit</button>
-            <p>There Was An Error</p>
+            <p class="note">There Was An Error</p>
         </div>
         <button class="back" type="button">Back To Tasks</button>
     </main> 
-    </div>  
 </body>
 </html>

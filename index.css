@@ -29,11 +29,16 @@ header{
     justify-content: space-between;
     padding-right: 5%;
     background-color: white;
+    cursor: pointer;
 }
 
 a{
     color: blue;
     font-weight: bolder;
+}
+
+a:hover{
+    color: rgba(0, 0, 255, 0.473);
 }
 
 main{
@@ -64,6 +69,7 @@ h1{
 
 .note{
     width: 90%;
+    padding-top: 5px;
 }
 
 .first p{
@@ -101,6 +107,11 @@ h1{
     padding: 0;
     color: aliceblue;
     font-weight: 800;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgba(0, 0, 255, 0.473);
 }
 
 
@@ -138,7 +149,6 @@ h1{
     color: brown;
 }
 
-
 .third{
     margin: auto;
     width: 60%;
@@ -157,34 +167,11 @@ h1{
 }
 
 .checkbox{
-    width: 10%;
     text-align: center;
-    width: 1.3em;
-    height: 1.3em;
-    background-color: white;
-    border-radius: 50%;
-    vertical-align: middle;
-    border: 2px solid green;
-    appearance: none;
-    -webkit-appearance: none;
-    outline: none;
-    cursor: pointer;
-}
-
-.checkbox:checked{
-    background-color: green;
+    width: 10%;
+    color: green;
 }
 
 .task{
     font-weight: 600;
 }
-
-main .third .check p{
-    margin: 0;
-
-}
-
-
-
-
-
