@@ -98,6 +98,10 @@ h1{
     color: rgb(122, 118, 118);
 }
 
+::placeholder { 
+    color: rgb(3, 3, 3);
+}
+
 .firstinput button{
     background-color: blue;
     width: 30%;

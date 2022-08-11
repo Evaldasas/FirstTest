@@ -62,7 +62,7 @@ h1{
 .table{
     width: 60%;
     margin: auto;
-    background-color: whitesmoke;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-items: center;
